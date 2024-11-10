@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Javascript - Reactive DOM with Fetch</title>
+</head>
+<body>
+
+	<h1>Posts</h1>
+	<!-- We will add the post items as html elements in this div -->
+	<div id="div-post-entries"></div>
+
+	<h1>Add Post</h1>
+	<form id="form-add-post">
+		<span>Title:</span><br>
+		<input type="text" id="txt-title"/><br>
+		<span>Body</span><br>
+		<input type="text" id="txt-body"/><br>
+		<button type="submit">Create</button>
+	</form>
+
+	<hr>
+
+	<h1>Edit Post</h1>
+	<form id="form-edit-post">
+		<span>Title:</span><br>
+		<input type="text" id="txt-edit-title"><br>
+		<span>Body</span><br>
+		<textarea type="text" id="txt-edit-body"></textarea><br>
+		<button type="submit" id="btn-submit-update" disabled>Update</button>
+		<input type="text" id="txt-edit-id" hidden/>
+	</form>
+
+	<h1>Posts</h1>
+	<!-- We will add the post items as html elements in this div -->
+	<div id="div-post-entries"></div>
+
+	<!-- Add the "Delete All" button -->
+	<button id="delete-all">Delete All</button>
+
+
+	<script src="./index.js"></script>
+</body>
+</html>

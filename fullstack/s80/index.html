@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- Mobile Responsive Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homepage</title>
+    
+    <!-- Bootstrap CSS Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="./index.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top ps-6">
+        <a class="navbar-brand" href="#">Double-O</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero text-white text-center py-5">
+    <div class="container">
+        <h1>Welcome to Double-O</h1>
+        <p>Your one-stop shop for Gundam Collectibles!</p>
+         <a href="#products" class="btn btn-primary">Shop Now</a>
+    </div>
+    </header>
+
+
+    <!-- Carousel -->
+    <div id ="carousel-gundam"class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://preview.redd.it/dedicated-shelf-for-gundam-00-1-100-model-kits-v0-eu6tp8495vka1.jpg?width=1080&crop=smart&auto=webp&s=94c4cbf654b296adf896589df0802a7e17f4eb84" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.redd.it/siuy6icpcywz.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.redd.it/1mcmvbjhl3o51.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-gundam" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-gundam" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Featured Product Section -->
+    <section class="featured-products bg-white">
+    <!-- Heading -->
+    <div class="container text-center text-dark my-5">
+        <h2>Featured Products</h2>
+    </div>
+
+    <!-- Cards -->
+    <div class="container">
+           <div class="card-group">
+                <div class="card border-0">
+                    <img src="https://cdn.shopify.com/s/files/1/2786/5582/products/153_3772_s_5439z81ugp8ce9k56yd2tcfnijie_clipped_rev_3_e8408706-8f08-4248-bcd8-df0cae3ebad6_300x300.png?v=1597257605">
+                    <div class="card-body">
+                        <h5 class="card-title">MG GN-003 Gundam Kyrios</h5>
+                        <p class="card-text">₱29,999.99</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <img src="https://m.media-amazon.com/images/I/71VE9XyPtlL._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="MG GN-0000+GNR-010 00 Raiser">
+                    <div class="card-body">
+                        <h5 class="card-title">MG GN-0000+GNR-010 00 Raiser</h5>
+                        <p class="card-text">₱29,999.99</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <img src="https://cdn.shopify.com/s/files/1/2786/5582/products/1792576716849-0_clipped_rev_1_300x300.png?v=1660244141" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">MG GN-002 Gundam Dynames</h5>
+                        <p class="card-text">$29,999.99</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</section>
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 Double-O. All rights reserved.</p>
+         <p>For educational purpose only.</p>
+    </footer>
+
+    <!-- Bootstrap JS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

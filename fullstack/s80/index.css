@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+nav.navbar {
+ 
+    box-shadow: 0 2px 5px rgba(76, 175, 80, 0.5);
+}
+.navbar-brand {
+    color: #4CAF50 !important; /* Matrix green for brand */
+}
+
+
+
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    background: url('https://centakumedia.com/wordpress/wp-content/uploads/2020/02/20200221_001-1024x768.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 1000px; 
+    color: white;
+}
+
+.hero h1 {
+    font-size: 60px; 
+    font-family: 'Poppins', sans-serif; 
+    text-shadow: 2px 2px 5px green
+}
+
+.hero p {
+    font-size: 30px; 
+    text-shadow: 2px 2px 5px green
+}
+
+.carousel-item {
+    height: 800px; /* Set a fixed height for carousel items */
+}
+
+.carousel-item img {
+    width: 800px; /* Fixed width */
+    height: 800px; /* Fixed height */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+.carousel {
+    position: relative;
+    z-index: 10; /* Adjust as needed */
+}
+
+.card {
+    margin-bottom: 1rem; /* Spacing between cards */
+}
+
+
+.card-body img {
+    max-width: 50%; /* Adjust this value to control logo size */
+    height: 75%; /* Maintain aspect ratio */
+    margin: auto; /* Center the images */
+    display: block; /* Necessary for centering */
+}
+
+
+.card {
+    margin-bottom: 1rem; /* Spacing between cards */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+.card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}

@@ -1,0 +1,24 @@
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar .nav-link:hover {
+    color: #003DA5 !important; /* Change hover color to blue */
+}
+.navbar-toggler {
+    background-color: #003DA5; /* Change to your desired color */
+    border: none; /* Optional: removes the border */
+}
+
+#home {
+    background: 
+    linear-gradient(
+            rgba(0, 0, 0, 0.75), /* Darker first color */
+            rgba(0, 0, 0, 0.75)  /* Darker second color */
+        ), 
+    url("https://cdn.britannica.com/44/116044-050-BA81358E/Alexander-the-Great-army-forces-Persian-Battle-333-bce.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
