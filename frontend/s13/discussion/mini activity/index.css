@@ -1,0 +1,69 @@
+/* Basic Reset and Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: darkkhaki; /* Background color for visibility */
+}
+
+.card {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  color: black;
+  text-align: center;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+/* Card Header */
+.card-header {
+  background-color: rgba(0, 0, 0, 0.8); /* Slightly darker for contrast */
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 8px 8px 0 0; /* Rounded top corners */
+  text-align: center;
+}
+
+/* Card Content */
+.card-content {
+  padding: 20px;
+  flex: 1; /* Allows the content area to grow and fill the remaining space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card 1 */
+.card1 {
+  background-color: #3498db; /* Blue */
+  top: 20px; /* Position towards the top */
+  left: 20px; /* Position towards the left */
+  z-index: 1; /* Bottom layer */
+  border: 2px solid black;
+}
+
+/* Card 2 */
+.card2 {
+  background-color: #e74c3c; /* Red */
+  top: 60px; /* Slightly offset from Card 1 */
+  left: 60px; /* Slightly offset from Card 1 */
+  z-index: 2; /* Middle layer */
+  border: 2px solid black;
+}
+
+/* Card 3 */
+.card3 {
+  background-color: #2ecc71; /* Green */
+  top: 100px; /* Further offset to overlap Card 2 and Card 1 */
+  left: 100px; /* Further offset to overlap Card 2 and Card 1 */
+  z-index: 3; /* Top layer */
+  border: 2px solid black;
+}

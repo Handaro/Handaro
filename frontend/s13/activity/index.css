@@ -1,0 +1,49 @@
+/* Import the Zilla Slab font */
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600&display=swap');
+
+/* 12. Styling for .container */
+.container {
+  text-align: right; /* Align text to the right */
+  width: 40%; /* Set the width to 40% */
+  position: relative; /* Use relative positioning */
+  left: 50%; /* Move the element to the right */
+  transform: translateX(-50%); /* Center the element by adjusting for the width */
+}
+
+/* 13. Styling for .title */
+.title {
+  font-family: 'Zilla Slab', serif; /* Set font to Zilla Slab */
+  font-size: 2.5rem; /* Increase font size to 2.5 times the root font size */
+  font-weight: 600; /* Set font weight to 600 */
+}
+
+/* 14. Styling for .subtitle */
+.subtitle {
+  font-size: 1.3rem; /* Increase font size to 1.3 times the root font size */
+  font-weight: 300; /* Set font weight to 300 */
+  width: 75%; /* Set width to 75% of the parent's width */
+  margin-left: 9rem; /* Margin of at least 9 times the root font size on the left */
+  margin-top: 1rem; /* Add margin on the top side (adjust as needed) */
+}
+
+/* 15. Styling for #apply-button */
+#apply-button {
+  margin-top: 1rem; /* Add margin at the top (adjust as needed) */
+  background-color: #c2195b; /* Set background color */
+  color: white; /* Set text color to white for contrast (optional) */
+  padding: 0.5rem 1rem; /* Add some padding for better button appearance (optional) */
+  border: none; /* Remove default border (optional) */
+  border-radius: 0.25rem; /* Rounded corners (optional) */
+  cursor: pointer; /* Pointer cursor on hover (optional) */
+}
+
+/* Example styling for the body or other elements for context */
+body {
+  font-family: Arial, sans-serif; /* Example font family */
+  font-size: 1rem; /* Base font size */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

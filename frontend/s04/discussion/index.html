@@ -1,0 +1,98 @@
+<!-- Basic HTML Structures -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Attributes and Hyperlinks</title>
+</head>
+<body>
+    <!-- id attribute - assigns a unique named identifier to the element -->
+	<h2 id = "top">HTML Attributes</h2>
+
+	<!-- attributes allow us to change the default behaviour of our elements -->
+	<!-- align attribute - changes the alignment of the specified element -->
+	<!-- By edfault, p element is aligned to the left -->
+
+
+	<p align = "center"><em>Modifiers of element behaviors.</em></p>
+
+	<h2>HTML Images</h2>
+
+	<!-- &lt and &gt; are called HTML Entities-->
+
+	<p align = "right"><em>An image can be shown using &lt;img&gt; tag along with its <strong>src</strong> attribute.
+	</em></p>
+
+	<!-- <img> tag which is used to include images in our webpage -->
+	<!-- src attribute - accepts a link to redirect to the image -->
+
+	<!-- added an image using absolute linking -->
+	<a href = "https://www.akc.org/puppies/" target = "_blank">
+
+	<img src="https://res.cloudinary.com/dneeqo5vq/image/upload/v1708476720/dog300x300_yzrind.jpg">
+
+    </a>
+
+    <!-- <img> tag which is used to inclue images -->
+
+
+	<p>
+		<!-- <code> tag is used to define a place of code and display the text in default monospace font -->
+		<!--  -->
+
+
+		<code>&lt;img src="https://res.cloudinary.com/dneeqo5vq/image/upload/v1708476720/dog300x300_yzrind.jpg"i&gt;</code>
+	</p>
+
+	<!-- src attributes accepts a url form a local source -->
+
+	<!-- added an image using relative linking -->
+    
+	<img src="./images/zuittlogo.png">
+
+	<p>
+		<code>&lt;img src="./images/zuittlogo.png"&gt;</code>
+	</p>
+
+	<p>Valid image extensions are the following:</p>
+
+	<!-- tpye attributes - changes the order list -->
+	<!-- other values: 1,a,i,I -->
+	<!-- reversed attribute - reverses the order of the points but the the items -->
+
+
+	<ol type = "a" reversed>
+		<li>png</li>
+		<li>jpg</li>
+		<li>gif</li>
+		<li>svg</li>
+		<li>webp</li>
+	</ol>
+
+	<p>Take a look at w3schools attribute references <a href = "https://www.w3schools.com/tags?ref_attributes.asp" target = "_blank">here</a></p>
+
+
+
+	<h2>HTML Hyperlinks</h2>
+
+	<h4>Absolute Link</h4>
+
+	<!-- <a> tag or can also be called "anchor" which creates a hyperlink element that when clicked will redirect to a different page -->
+	<!-- <a> tag is an inline element -->
+	<!-- href attribute - hypertext reference - use to create a link to a different page -->
+	<!-- links references to the website/webpage address -->
+	<!--hyperlinks refers to the page element  -->
+	<a href = "http://zuitt.co">I'm a hyperlink</a>
+
+	<h4>Relative Link</h4>
+
+	<!-- webpage to webpage -->
+
+	<p>Go to <a href = "./link.html"> page</p>
+
+	<p>Go to <a href ="#top">top</a></p>
+
+
+
+</body>
+</html>

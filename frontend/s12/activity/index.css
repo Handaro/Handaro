@@ -1,0 +1,87 @@
+/* 3. Add a CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 4. Add Google Font Family for all elements */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap'); /* Example font family */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Member 2 */
+/* 5. Add different Google Font Family for all headings */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* Example font family for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* 6. CSS ruleset for the nav element */
+nav {
+  padding: 5px;
+  text-align: center;
+  background-color: #f8f9fa; /* Example background color */
+}
+
+/* Member 3 */
+/* 7. CSS ruleset for li elements inside the nav element */
+nav li {
+  display: inline-block; /* Display list items side by side */
+  text-decoration: none;
+  margin: 0.5rem;
+  padding: 3px;
+}
+
+/* 8. CSS ruleset for the element with id "landing" */
+#landing {
+  background-image: url('https://example.com/background.jpg'); /* Replace with your hosted image URL */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 50vh; /* 50% of the viewport height */
+  color: white;
+}
+
+/* Member 4 */
+/* 9. CSS ruleset for h1 inside the landing element */
+#landing h1 {
+  padding-top: 1rem;
+  font-size: 3rem;
+}
+
+/* 10. CSS ruleset for h3 inside the landing element */
+#landing h3 {
+  margin: 1rem;
+}
+
+/* 11. CSS ruleset for button inside the landing element */
+#landing button {
+  padding: 0.5rem;
+  background-color: #007bff; /* Example background color */
+  border: 2px solid #0056b3; /* Example border color */
+  border-radius: 0.25rem;
+}
+
+/* Member 5 */
+/* 12. CSS ruleset for the element with id "hot" */
+#hot {
+  text-align: center;
+}
+
+/* 13. CSS ruleset for h2 inside the "hot" element */
+#hot h2 {
+  margin: 2rem 0; /* Margin on top and bottom */
+}
+
+/* 14. CSS ruleset for li elements inside the "hot" element */
+#hot li {
+  display: inline-block; /* Display list items side by side */
+  text-decoration: none;
+  border: 2px solid #ff5733; /* Example border color */
+  border-radius: 0.5rem;
+  padding: 3rem;
+  margin: 0.5rem;
+}

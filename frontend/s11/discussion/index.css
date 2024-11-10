@@ -1,0 +1,101 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/*Google Font*/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+nav {
+	/*shorthand property*/
+	/*apply padding to all sides*/
+	/*value is 12.8 pixels based on the root element*/
+	padding: 0.8rem;
+	/*properties that make up the "padding" property*/
+    /*padding-top: 0.8rem;
+    padding-right: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 0.8rem;*/
+    /*creates space between the nav and intro section*/
+    margin-bottom: 2rem;
+    border-bottom: 1px solid gray;
+    list-style-type: none;
+}
+
+/*margin vs padding*/
+/*Margin is best used when creating space between elements*/
+/*Padding is best used when creating space between an element's border and it's content*/
+
+nav .nav, nav .nav-logo{
+	margin: 0.5rem;
+	display: inline;
+}
+
+/*Intro section*/
+#intro{
+	/*Creates space between the contents and the intro section and it's border*/
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	/*shorthand property*/
+	/*padding: 2rem 10% 3rem ;*/
+	text-align: center;
+}
+
+.header {
+	text-align: center;
+}
+
+#intro h2, #intro p {
+	/*creates space between the contents of the intro section*/
+	margin-bottom: 1rem;
+}
+
+
+#intro button {
+	color: white;
+	font-weight: bold;
+	background-color: #c2195b;
+	border-radius: 25px;
+	font-size: 1rem;
+	padding: 1rem;
+}
+
+/*succeed info section*/
+#succeed-info {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+
+#succeed-info h2 {
+	/*creates space between the header and the card section*/
+	margin-bottom: 1rem;
+}
+
+#succeed-info h3 {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+#succeed-info .card {
+	/*allows the cards to appear beside each other*/
+	display: inline-block;
+	/*alings elements with the tallest element in line*/
+	vertical-align: top;
+	/*allows for cards to have equal height that adjust with content*/
+	min-height: 175px;
+	/*measurement is based on equally dividing the parent container's width*/
+	/*Only 30% and not 33.33% because of margin to avoid overflow and horizontal scrolling*/
+	width: 30%;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}

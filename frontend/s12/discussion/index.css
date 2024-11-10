@@ -1,0 +1,179 @@
+*{
+	padding:  0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h2, h3, h4{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*By default the div elements are display: block*/
+#div-1 {
+	background-color: skyblue;
+	border: 2px solid black;
+	/*block elements allow custom width and height values*/
+	height: 200px;
+	width: 200px;
+}
+
+#div-2{
+	background-color: aquamarine;
+	border: 2px solid black;
+	/*inline elements does not allow for custom height and width values*/
+	height: 200px;
+	width: 200px;
+	/*inline elements occupy ONLY the necessary space to display text/images*/
+	display: inline;
+}
+
+/*by default, span element are display: inline*/
+#span-1{
+	background-color: gray;
+	border: 2px solid black;
+}
+
+
+#span-2{
+	background-color: brown;
+	border: 2px solid black;
+	/*block elements occupy the full width/length if the webpage regardless of their content*/
+	display: block;
+}
+
+/*span elements are displayed on the same line beside each other*/
+#span-3{
+	background-color: yellow;
+	border: 2px solid black;
+	/*in-line block elements take ONLY the necesarry space to display the content but can also custom witdh and height values*/
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+
+}
+
+#span-4{
+	background-color: orange;
+	border: 2px solid black;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+}
+
+/* block elements are displayed stacked on top of each other */
+#div-3{
+	background-color: pink;
+	border: 2px solid black;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+}
+
+#div-4{
+	background-color: purple;
+	border: 2px solid black;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+}
+
+#div-5{
+	background-color: lightblue;
+	border: 2px solid black;
+}
+
+#div-6{
+	background-color: lightcyan;
+	border: 2px solid black;
+	/*diplay none element hideds the element itself without any space*/
+	display: none;
+}
+
+#span-5{
+	background-color: lightgreen;
+	border: 2px solid black;
+	display: none;
+}
+
+.box{
+	background-color: red;
+	border: 1px solid black;
+	margin: 5px;
+}
+
+.fifty-percent{
+	width: 50%;
+}
+
+.one-hundred-pixels{
+	width: 100px;
+}
+
+.parent {
+	width: 200px;
+	border: 1px solid black;
+	font-size: 30px;
+}
+
+.fifty-vw{
+	width: 50vw;
+}
+
+.twenty-five-vh{
+	width: 25vh;
+}
+
+.one-rem{
+	font-size: 1rem;
+}
+
+.one-em{
+	font-size:1em;
+}
+
+.two-rem {
+	font-size: 2rem;
+}
+
+.two-em{
+	font-size: 2em;
+}
+
+.two-hundrerd-percecnt{
+	font-size: 200%;
+}
+
+.background{
+	min-height: 100vh;
+	/* you can also use #808080 or rgb(128,128,128) */
+	background-color: gray;
+	/*url() - takes the path of your image*/
+	background-image: url(https://c4.wallpaperflare.com/wallpaper/43/1003/707/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg) ;
+    /*you can also use, repeat-x, repeat-y*/
+    background-repeat: no-repeat;
+    /* background-size property specifies the background size of the element */
+    /* you can also use auto, contain, 500px (sets the width and the height becomes auto), 60% 70%(sets the width and the height) */
+    background-size: cover;
+    /*background position property sets the positions of the background relative to the HTML element*/
+    /*Two values needed:  x and y offset, 10% 10%, left/center/right top/center/bottom*/
+    background-position: center bottom;
+    /*background-attachment property sets whether a background scrolls with the rest of the page or is fixed*/
+    background-attachment: fixed;
+}
+
+.bg-title{
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    margin: 0; /* to rid the space around the element */
+    line-height: 35rem;
+}
+
+
+.container-bg {
+    /* background-color can also be used along with background-image. rgba is used with opacity of 0.5 */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* min-height defines the minimum height of an element */
+    min-height: 100%;
+}

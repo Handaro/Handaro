@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- Mobile Responsiveness Meta Tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS Link -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+	<title>Bootstrap Components</title>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Ada Lovelace</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">About me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Tools</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+    
+    <!-- Main Content Section -->
+	<div class="container-fluid text-center">
+		<div class="row">
+
+			<!-- Side Content -->
+			<div class="card col-xl-2 d-none d-xl-block p-0">
+				<div class="accordion" id="accordionExample">
+
+					<!-- Services Section -->
+					<div class="card">
+						<h2 class="mb-0" id="headingOne">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Services
+							</button>
+						</h2>
+						<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+							<div class="card-body">
+								<ul class="text-justify" style="list-style:none">
+									<li><a href="#">Frontend Design</a></li>
+									<li><a href="#">Backend Design</a></li>
+									<li><a href="#">FullStack Development</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- Project Section -->
+					<div class="card">
+						<h2 class="mb-0" id="headingTwo">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								Projects
+							</button>
+						</h2>
+						<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+							<div class="card-body">
+								<ul class="text-justify" style="list-style:none">
+									<li><a href="#">HTML</a></li>
+									<li><a href="#">Bootstrap</a></li>
+									<li><a href="#">NodeJS</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- Tools Section -->
+					<div class="card">
+						<h2 class="mb-0" id="headingThree">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								Tools
+							</button>
+						</h2>
+						<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+							<div class="card-body">
+								<ul class="text-justify" style="list-style:none;">
+									<li><a href="#">Core Tools</a></li>
+									<li><a href="#">Other Tools</a></li>
+								</ul>
+								
+							</div>
+						</div>
+					</div>
+				</div> 
+			</div>
+
+			<!-- Side Content -->
+			<div class="col-xl-10 p-0">
+				
+				<!-- Profile Section -->
+				<!-- min-vh-100 - minimum-viewportheught-100% -->
+				<div class="container-fluid bg-dark text-light min-vh-100 p-3 p-md-5">
+					<img class="mt-5 mt-md-0 rounded-circle" src="https://i.guim.co.uk/img/media/3656ae6ea2209d4561caf04fa9f172a519908ca3/0_28_2318_1391/master/2318.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=afcc355f47876bc495cdc3c902639bae" width="250">
+				    
+				    <h1>Ada Lovelace</h1>
+				    <h3>Full-Stck Developer</h3>
+
+				    <div class="row mt-5">
+				    	<div class="offset-md-2 col-md-8">
+				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				    	</div>
+				    </div>
+
+				
+				<div class="row d-none d-md-block mt-md-5">
+					<div class="offset-xl-3 col-xl-6">
+					 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://res.cloudinary.com/dneeqo5vq/image/upload/v1708477409/2024-Maserati-GranTurismo-Review-550x350_gopzhy.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://res.cloudinary.com/dneeqo5vq/image/upload/v1708477409/2024-Maserati-GranTurismo-Review-550x350_gopzhy.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://res.cloudinary.com/dneeqo5vq/image/upload/v1708477409/2024-Maserati-GranTurismo-Review-550x350_gopzhy.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>	
+					</div>
+				</div>
+				</div>
+				<div class="bg-secondary text-light min-vh-100">
+					
+					<h2 class="mb-3">Other Projects</h2>
+
+					<div class="d-lg-flex justify-content-center p-md-5">
+
+						   <div class="card" style="width: 18rem;">
+							  <img src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg" class="card-img-top" alt="...">
+							  <div class="card-body text-dark">
+							    <h5 class="card-title">HTML</h5>
+							    <h6 class="card-subtitle mt-3">Programming Basics</h6>
+							    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							    <a href="#" class="card-link">Link to Project</a>
+							  </div>
+						  </div>
+
+						  <div class="card" style="width: 18rem;">
+							  <img src="https://wallpaperaccess.com/full/4623112.png" class="card-img-top" alt="...">
+							  <div class="card-body text-dark">
+							    <h5 class="card-title">Bootstrap</h5>
+							    <h6 class="card-subtitle mt-3">Rapid Prototyping</h6>
+							    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							    <a href="#" class="card-link">Link to Project</a>
+							  </div>
+						  </div>
+
+						  <div class="card" style="width: 18rem;">
+							  <img src="https://tse1.mm.bing.net/th?id=OIP.s5j5kFK-urpNTrVLlv9-ogHaEK&pid=Api&P=0&h=220" class="card-img-top" alt="...">
+							  <div class="card-body text-dark">
+							    <h5 class="card-title">NodeJS</h5>
+							    <h6 class="card-subtitle mt-3">Backend Basics</h6>
+							    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							    <a href="#" class="card-link">Link to Project</a>
+							  </div>
+						  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bootstrap JSScript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

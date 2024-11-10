@@ -1,0 +1,116 @@
+/*css rule set*/
+/*
+selector{
+	property: value;
+}
+*/
+/* Universal Selector */
+/* means all/all elementss */
+*{
+	/*font-family property changes the fint style of the text*/
+	/*the value "Courier" will be use as the primary font and the value "monospace"
+	will be used as the secondary or backup font in the browser*/
+	font-family: "Courier New", monospace;
+	/* font-size property changes the size of the text*/
+	/*20px means 20 pixels*/
+	font-size: 20px;
+}
+
+body {
+    /*The "background-color" property changes the background color of an element.*/
+    background-color: skyblue;
+}
+
+html {
+    /* The "scroll-behavior" property changes the scrolling behavior when clicking on anchor tags */
+    /* The value "smooth" changes the scrolling behavior of a page jumping from one section to the next to smoothly scroll to a section */
+    scroll-behavior: smooth;
+}
+
+/*navigation bar*/
+nav {
+    background-color: white;
+}
+
+div {
+    /* The "float" property changes the horizontal alignment of an element to float either to the left or right of it's container */
+    float: right;
+}
+
+/*Type Selector*/
+/*tag-name/element*/
+h1{
+	color: red !important;
+	text-align: center;
+    font-size: 2rem;
+
+}
+section {
+    /* The value "vh" refers to viewport height. This value is based on a percentage of the browser's screen size and is good to use for elements that we want to have a responsive change in size referencing the browser's screen. */
+    /* Which means that 100vh is about 100% of the browser screen's height  */
+    height: 100vh;
+    /* The "text-align" property changes the horizontal alignment of text or all nested text elements */
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+
+h3	{
+	letter-spacing: 25px;
+}
+#zuitt-motto{
+	letter-spacing: 5px;
+}
+
+ol {
+    /* The "list-style-type" property changes the bullet points/numbers used in a list. */
+    /* The value "none" will remove the bullet points/numbers from a list. */
+    list-style-type: none;
+    /* "padding" property allows us to define the spaces within an element. In this case, we used "padding:0;" to define all default padding values in the element to zero. */
+    padding: 0;
+}
+/* CSS Combinator */
+
+/* Adjacent Sibling Selector (+)*/
+/*Selector + selector*/
+/*2nd selector will be the modified element*/
+h3 + img{
+	/* height property changes the vertical dimensions/height of the element */
+	height: 300px;
+	/* width property changes the horizontal dimensions/width of the element */
+	width: 300px;
+	/*border radius property changes the corners of an element from a
+	sharp corner to a rounded corner*/
+	/* The higher the value, the more round the corners are */
+	border-radius: 150px;
+
+}
+/*Class Selector*/
+/*.means class*/
+/*.class-value
+*/
+.offering-item {
+	/* text-transform property changes the font to a case */
+	/* uppercase - change the text to ALL capitalized letters */
+	text-transform: uppercase;
+}
+
+#bootcamp-learning-list li{
+	/* color */
+
+	color: #075966;
+}
+/*general sibling selector (~)*/
+/* Selector ~ selector */
+h2 ~ a, a {
+	/*text-decoration property hanges the line included in the text*/
+	/*none removes the underline, overline, underline, strikethrough*/
+	text-decoration: none;
+}
+
+.modules{
+	letter-spacing: 3px;
+}

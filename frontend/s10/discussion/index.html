@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+		CSS Introduction
+	</title>
+
+	<!-- external styling -->
+	<!-- we use a different file to contain the styling properties of the selected element -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<!-- Internal Styling -->
+	<!-- Uses <style> to change the styling of the styling properties of the selected element -->
+	<style>
+	       /*css rule set*/
+		h1{
+			color: yellow;
+		}
+	</style>
+
+
+</head>
+<body>
+	<!-- 
+        CSS Specificity Rule:
+        0. !importnant
+        1. Inline Styling (Highest Priority)
+        2. Internal Styling
+        3. External Styling
+ 	 -->
+
+
+ 	 <nav id= "top">
+ 	 	<a href ="#top">Zuitt</a>
+ 	 	<a href ="#landing">Landing</a>
+        <a href ="#courses">Courses</a>
+
+
+ 	 </nav>
+
+
+	<!-- Inline Styling -->
+	<!-- the "style" attribute change the styling properties of the element -->
+	<!-- <h1 style = "color: blue;">Hello World</h1> -->
+	<h1>Hello World</h1>
+	<!-- "id" attribute will be used to target elements that have their own unique styles -->
+
+	<section id= "landing">
+		<h2>Welcome to Zuitt!</h2>
+		<h3 id= "zuitt-motto">Oppurtunities for everyone, everywhere!</h3>
+
+        <img src="https://res.cloudinary.com/dneeqo5vq/image/upload/v1708476814/389388_prev_390_389388_bus4vh.jpg">
+
+		<ol id = "bootcamp-learning-list">
+		<!-- class attribute use to target elements with similar styling -->
+
+		<li class= "offering-item">Day classes</li>
+		<li class= "offering-item">Night Classes</li>
+		<li class= "offering-item">Intro </li>
+	</ol>
+
+	<a href ="#top">Back to Top</a>
+	</section>
+
+	<section id ="offerings">
+		<h2>Courses</h2>
+
+		<h3 class = "modules">Frontend Development</h3>
+		<ol>
+			<li>Git</li>
+			<li>HTML</li>
+			<li>CSS</li>
+		</ol>
+
+		<h3 class = "modules">Backend Development</h3>
+		<ol>
+			<li>Javascript</li>
+			<li>MongoDB</li>
+			<li>Node.js</li>
+			<li>Express.js</li>
+		</ol>
+
+		<h3 class = "modules">Fullstack Development</h3>
+		<ol>
+			<li>MonogoDB</li>
+			<li>Express.JS</li>
+			<li>React.js</li>
+			<li>Node.js</li>
+		</ol>
+	</section>
+
+	
+</body>
+</html>
